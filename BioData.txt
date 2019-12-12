@@ -1,9 +1,13 @@
 1. My name is Pinky Rout.
 2. I work as a software developer at Josh Software Pvt. Lmt.
 3. My name is Shubham Nagpure.
-4. I work as a intern at josh Software Pvt. Lmt. 
+4. I work as a intern at josh Software Pvt. Lmt. I am pursuing MSc computer science from fergusson college.  
 1. My name is Snehanjali Kalamkar.
 2. I am currently an intern at Josh Software Pvt. Lmt. and today is the first day of training.
+
 I am Yash Manoj Maheshwari.
 I am pursuing BE Computer Engineering from MET BKC Nashik.
-Also I am an intern at Josh Software Pvt Ltd.
+
+Also I am an intern at Josh Software Pvt Ltd
+
+

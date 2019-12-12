@@ -13,10 +13,12 @@
 1. My name is Snehanjali Kalamkar.
 2. I am currently an intern at Josh Software Pvt. Lmt. and today is the first day of training.
 
-I am Yash Manoj Maheshwari.
-I am pursuing BE Computer Engineering from MET BKC Nashik.
-Also I am an intern at Josh Software Pvt Ltd.
-
+	I am Yash Manoj Maheshwari.
+	I am pursuing Bachelors Degree in Computer Engineering from MET BKC Nashik.
+	I am an intern at Josh Software Pvt Ltd.
+	
+we are getting too much conflicts.
+	
 
 
 

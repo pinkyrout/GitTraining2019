@@ -1,0 +1,25 @@
+revert-
+it is use to undo commit.
+
+hard reset-
+don't change the branch but get rid of all local changes.
+
+
+soft reset-
+remove the last commit from the current branch, but the file changes will stay in your working tree.
+
+
+rebase-
+integrates changes from one branch into another like merge but difference is  rewriting the commit history in order to produce a straight, linear succession of commits.
+
+
+cherry pick-
+choose a commit from one branch and apply it onto another. 
+
+
+commit-
+used to save your changes to the local repository.
+
+
+amend-
+It lets you combine staged changes with the previous commit instead of creating an entirely new commit.

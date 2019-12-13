@@ -1,0 +1,21 @@
+Description of Git Commands
+
+1. git -revert : is used for undoing the last commit on the git by inverting the changes and adding a new commit to it.
+
+2. git -rebase : is used to merge the commits of the branch with the master branch such that it appears to be in linear approach rather than in a tree like approach.
+
+3. git reset --hard : is used to change the status of files to the status of changes to be committed, ie. in the staging area.
+
+4. git reset --soft : is used to discard any changes to the tracked files because all the commits from the beginning are discarded.
+
+5. git commit --amend : is used to correct the git comment for any specific commit operation.
+
+6. git cherry-pick : allows picking a commit from one branch to another, in case a push has been done on an incorrect branch.
+
+7. git cherry-pick with range : allows picking a commit from one branch to another in a given range of commit id.
+
+
+git config --global : global here refers to the global operating system user and writes to ~/.gitconfig file, unlike the local option which is restricted to the local .git/config repository.
+
+rebase vs merge : rebase linearizes the tree structure by changing the base of the branch whereas merging integrates the features of the branch with the master.
+	Also, merge saves the history of commit whereas rebase rewrites it.

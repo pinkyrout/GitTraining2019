@@ -5,12 +5,12 @@ _____________________________________ASSIGNMENT-1_______________________________
 
 
 
-2. Rebase : Git rebase is a command used for merging two branches and is similar to git merge command. The difference between merge and rebase is that rebase doesnt create a new commit in the parent branch and simply adds the commits of the child branch into the parent branch whereas merge creates a new commit in the parent branch.In rebase history of commits is preserved whereas in merge history of commits of the child branch is lost.
+2. Rebase : Git rebase is a command used for merging two branches and is similar to git merge command. The difference between merge and rebase is that rebase doesnt create a new commit in the parent branch and simply adds the commits of the child branch into the parent branch whereas merge creates a new commit in the parent branch.
 
 
 					MERGE COMMAND
 
-		  master ->    (m1)-----------------> (m2)------>
+		  master ->    (m1)----->(m2)-----> (m3)------>
 				\		    /
 				 \                 /
 				  \               /
@@ -19,7 +19,7 @@ _____________________________________ASSIGNMENT-1_______________________________
 
 					REBASE COMMAND
 
-		   master ->    (m1)---------->(b1)----------> (b2) ---------->
+		   master ->    (m1)--------->(m2)--------->(b1)----------> (b2) ---------->
 
 
 

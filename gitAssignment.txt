@@ -1,0 +1,24 @@
+
+					GIT Assignment
+
+git revert - Used to undo operation, creates new commit that inverses changes.
+
+git rebase - Used to integrate changes from one branch to another. alternate to merge operation 	     but eliminates unwanted history.
+
+git reset - used to reset current branch head to specified commit and may update index and working 		    tree as per specified mode.
+
+	--soft : This mode only resets the head to specified commit.
+	--hard : This mode resets index as well as the working tree.
+
+git cherrypick - Used to pick commit from one branch and apply it to another.
+
+git cherrypick [commit]..[commit] - Similar to cherrypick but have range of commits to apply to 				    another branch.
+
+git commit ammend - Used to modify the most recent commit. Using this we can add staged changes 		    with previous commit. Also used to change previous commit message.
+			***Note: we should avoid amend on public commits.***
+
+Rebase vs Merge - Merging and Rebase is same at some extent as they do same work of integrating 		  changes of 2 branches.
+		  In merging existing branches are not changed. It is non destructive operation.
+		  While in rebase the entire branch is linked at tip of other branch.
+
+config --global - Used to configure GIT on global level. Configuration is applied to an operating 			  system user. .gitconfig is stored in user's home directory. 

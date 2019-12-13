@@ -1,0 +1,48 @@
+_____________________________________ASSIGNMENT-1______________________________________
+
+1. Revert : Git revert is a command used for undoing one commit that we have made recently in the project. It is similar to git reset but the difference is revert is used to undo committed changes and reset is used to undo uncommitted changes. 
+	Syntax = $git revert 'commit_id(that we want to revert)'
+
+
+
+2. Rebase : Git rebase is a command used for merging two branches and is similar to git merge command. The difference between merge and rebase is that rebase doesnt create a new commit in the parent branch and simply adds the commits of the child branch into the parent branch whereas merge creates a new commit in the parent branch.In rebase history of commits is preserved whereas in merge history of commits of the child branch is lost.
+
+
+					MERGE COMMAND
+
+		  master ->    (m1)-----------------> (m2)------>
+				\		    /
+				 \                 /
+				  \               /
+		   branch(1) ->	   (b1)-------->(b2)
+
+
+					REBASE COMMAND
+
+		   master ->    (m1)---------->(b1)----------> (b2) ---------->
+
+
+
+
+3. Hard and Soft Reset : Git reset command has 3 parameteres associated with it which are as folows :
+			1. Hard
+			2. Soft
+			3. Mixed
+			Hard reset is the reset in which the head, index and the working copy is changed. Whereas in the soft reset only the head (which is pointing to the recent 				commit) is changed or reset. Soft reset is safe as there are no chances of data loss.
+
+
+
+4. Commit amend : This git command is used to edit the commits that we have did recently.
+
+
+
+5. Cherry Pick : this git command is used to pick particular commit using commit id and append it into the parent branch. In other words cherry pick command picks arbitrary commits from one branch and append into another.
+
+
+
+6. Cherry pick with range : We need to specify a range of commits with the help of commit id so that all the commits which fall in that range will be picked up and get appended into another branch.
+
+
+
+Question 1 -------- WHY WE USE GLOBAL CONFIGURATION OF OURSELVES WITH USERNAME AND EMAIL ON INSTALLATION OF GIT ?
+Answer 1 ---------- We use git config --global to make the username and email public so that if anyone makes any commit in a project it should be visible to all along with the committer's name. Without using global the username will remain private.

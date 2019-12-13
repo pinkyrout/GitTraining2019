@@ -1,0 +1,44 @@
+
+Git Commands
+
+config --global
+username and email is set for every repository
+
+without global
+username and email is set for single repository
+
+Revert
+-Undo type
+-invert the changes arised because of commit operation
+
+Rebase
+-Rewrites the commit history
+-Integrates changes from one branch to other
+
+commit amend
+-modify the recent commit
+-instead of creating new commit, one modify the commit
+-edit previous commit message
+
+rebase vs merge
+	merge adds new commit to history
+	rebase rewrites the history
+
+	git merge academics personal
+	Here contents of personal branch are integrated with academics branch. 
+	Thus only academics branch is changed and personal branch remains unmodified
+
+	git rebase academics personal
+	move the base of personal branch to academics branch
+
+cherry pick
+picking a commit from a branch and applying it to other branch
+
+cherry pick range
+cherry pick a range of commits from the branch
+
+hard reset
+reset index and working tree
+
+soft reset
+all the changed files will show changes to be committed

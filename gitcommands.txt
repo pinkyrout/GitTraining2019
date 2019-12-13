@@ -1,0 +1,9 @@
+1) revert - Reverts the commit specified in the command.
+2) rebase - Joins a new branch to the tip of the master branch including all the commits in the new branch. This re-writes project history by creating new commits.
+3) hard reset - Resets head, index and working directory to another commit.
+4) soft reset - Resets just the head to another commit.
+5) rebase v merge - Rebase joins the new branch to the tip of the master branch. Merge joins both the ends of the new branch and master branch6) commit amend - If the commit message is incorrect or needs to be changed, this command is used.
+7) cherry pick - Used to pick  specific commit from another branch to the master branch.
+8) cherry pick with range - Used to pick all commits in between two specified commits from another branch to the master branch.
+9) config --global- Saves git configuration values on a global level.
+10) clone - Used to copy the repository for reference.

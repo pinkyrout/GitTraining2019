@@ -1,0 +1,28 @@
+Git commands:
+cherry-pick:
+	When we use merge then all commit will merge with the another branch, but when we want to merge specific branch with the another branch then we will use the cherry-pick command in git.
+	We have to pass id of specific commit to chery pick command.
+	
+cherry-pick with range :  
+	This same as the cherry-pick cammand. The only differece is that we can give the range of the commit ids.
+
+reset --hard:
+	reset everything to the head. Reset index also and reset working directory.
+
+reset --soft:
+	when the --soft argument is passed, the ref pointers are updated and the reset stops there.	
+
+rebase:
+	when we rebase the any branch then it will add the starting point of branch at the end of the master branch.
+
+revert:
+	It is only undo single commit.
+
+commit amend:
+	It is use to edit last commit message.
+
+clone:
+	clone use as a ref to the remote repositary.clone means we simple make copy of that repositary to our local machine.
+
+global use in config:
+	Global level configuration is user-specific, meaning it is applied to an operating system user. 

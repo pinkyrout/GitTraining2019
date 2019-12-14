@@ -1,0 +1,33 @@
+git revert commit_id - It is a safer way to undo commits. It is used to undo the changes of specific commit without effecting other commits and to do so it creates a new commit. 
+
+git reset --soft commit_id - It reverses the changes of all commits till the specified commit but it preserves the history of all commits in the staged area so that they can be used in future. HEAD 
+							points to the specified commit after reset has executed.
+
+git reset --hard commit_id -  It reverses the changes of all commits till the specified commit and no history is preserved. HEAD points to the the specified commit after reset has executed.
+
+git reset --mixed commit_id - It reverses the changes of all commits till the specified commit and brings the changes of reversed commits to working directory. HEAD points to the the specified commit
+								after reset has executed.
+
+rebase and merge - Both are used to integrate the changes of one branch to another.
+		merge - It merges the branches by using 2 methods 
+			
+			i) fast-forward merge - when the last commit of one branch is base of other branch than merge is done by using fast-forward method. New commit is not created in this method.	
+	
+			ii) 3-way merge - In this method a new commit is created to merge the changes of commits that are commited after the common base commit of two branches.
+
+       rebase - It merges the two branches by creating the replica of commits of one branch and then inserting those replicas on the other branch.
+
+git config --global user.name "" : --global here allows the git to read and write to the config file that is specific to each user. It allows the other users to know the author of commits.
+
+commit amend - It allows us to changes the commit message.
+
+cherry pick -  it is used to pick a specific commit and creates it replica and append it to current branch.
+
+cherry pick with range - it is used to pick multiple commits in specified range and append	these to current branch.
+
+
+							
+						 
+
+
+				

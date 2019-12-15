@@ -1,0 +1,42 @@
+
+1. revert - It can be considered an undo command but instead of undoing a commit, it figures out how to invert changes introduced by the commit and append a new commit resulting in inverse of those changes.
+
+	syntax - git revert <commit_id>
+
+2. rebase - It is used for merging two branches. It is similar to merge but instead of merging by creation of new commit, it appends the sequence of commits to the base commmit.
+
+	syntax - git rebase <branch_name>
+
+ 	             merge                        rebase
+						
+  master|feature			     
+     ab		       ab                            ab
+      |   \            |    \			      |
+     ab	  ab	       ab    ab			      ab
+      |	   |	       |     |			      |	
+     Ab	  aB	       Ab    aB			      Ab
+		       |     /		                \				
+		       AB				Ab
+							|
+							AB
+
+
+3. reset - It is used for undoing changes. Resets state of repository to an earlier state. 
+
+	syntax - git reset <commit>
+
+	It has three parameters.
+	
+	--soft  - ref pointers are updated, staging index and working directory remains untouched. 
+	--mixed - ref pointers are updated, staging index is reset to the state of the specified commit, working directory is left untouched.
+	--hard  - ref pointers are updated, staging index and working directory are reset to the state of specified commit.
+
+
+4. commit --ammend - It combines staged changes with previous commit instead of creating a new commit. Can also be used to edit another commit.
+
+
+5. cherry pick - It is used to append a commit from one branch to another.
+	syntax - git cherry-pick <commit_ref>
+
+6. cherry pick with range - It is used to append all the commits that fall in a range from one branch to another.
+	syntax - git cherry-pick <old_commit_ref>..<new_commit_ref>

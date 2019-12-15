@@ -1,0 +1,26 @@
+config --global:-it is used to set username and email for every repository.
+
+without global:-used to set username and email for single repository
+
+Revert:-
+-It is an Undo type Command.
+-It is used to invert the changes arised because of commit operation.
+
+Rebase:-
+-It Rewrites the commit history.
+-It is used to integrates changes from one branch to other.
+
+cherry pick:-
+It is used to pick a commit from a branch and applying it to other branch.
+
+cherry pick range:-
+It is used to cherry pick a range of commits from the branch.
+
+commit amend:-
+It is used to modify the recent commit and instead of creating new commit, one can  modify the commit or edit previous commit message
+
+hard reset:-
+used to reset index and working tree.
+
+soft reset:-
+all the changed files will show changes to be committed.
